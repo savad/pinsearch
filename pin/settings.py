@@ -41,7 +41,6 @@ INSTALLED_APPS = (
     'rest_framework',
     'haystack',
     'pin_search',
-    'drf_haystack',
 )
 
 MIDDLEWARE_CLASSES = (
