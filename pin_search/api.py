@@ -20,6 +20,7 @@ class PinSearchViewSet(viewsets.ReadOnlyModelViewSet):
                          'delivery_status', 'pin_code', 'office_name']:
                 flag = False
         if flag:
-            query['content'] = query.pop('q')
+            if query.get('q'):
+                query['content'] = query.pop('q')
             queryset = SearchQuerySet().filter(**query)
         return queryset
