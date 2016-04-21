@@ -1,0 +1,10 @@
+{{ object.office_name }}
+{{ object.pin_code }}
+{{ object.office_type }}
+{{ object.delivery_status }}
+{{ object.division }}
+{{ object.region }}
+{{ object.circle }}
+{{ object.taluk }}
+{{ object.district }}
+{{ object.state }}
