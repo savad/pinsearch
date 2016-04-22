@@ -1,4 +1,15 @@
-# pinsearch
+# Pinsearch
+A web app for Indian Post office pin directory. We can search post office details by following keyword
+* office_name
+* pin_code
+* office_type
+* delivery_status
+* division
+* region
+* circle
+* taluk
+* district
+* state
 
 ### Installation guide:
 
@@ -34,6 +45,7 @@ Activate elastic search servie on your machine
 ***GET*** : http://localhost:8000/search/?region=Hyderabad
 
 ```javascipt
+
 {
     "count": 1,
     "next": null,
