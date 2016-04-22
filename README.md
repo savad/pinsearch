@@ -30,7 +30,30 @@ Activate elastic search servie on your machine
 `python manage.py runserver`
 
 
-http://localhost:8000/search/?state=andhra
+
+***GET*** : http://localhost:8000/search/?region=Hyderabad
+
+```javascipt
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "office_name": " Kodad B.O\"",
+            "pin_code": 508206,
+            "office_type": "B.O",
+            "delivery_status": "B.O",
+            "division": "Suryapet",
+            "region": "Hyderabad",
+            "circle": "Andhra Pradesh",
+            "taluk": "Huzurnagar",
+            "district": "Nalgonda",
+            "state": "ANDHRA PRADESH"
+        }
+    ]
+}
+```
 
 
 
