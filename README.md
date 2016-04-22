@@ -22,11 +22,15 @@ For ubuntu ref here https://www.digitalocean.com/community/tutorials/how-to-inst
 Activate elastic search servie on your machine
 
 `python manage.py migrate  --noinput`
+
 `python manage.py collectstatic  --noinput`
 
 `python manage.py rebuild_index`
 
 `python manage.py runserver`
+
+
+http://localhost:8000/search/?state=andhra
 
 
 
