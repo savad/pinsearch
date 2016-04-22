@@ -1,5 +1,5 @@
 # Pinsearch
-A web app for Indian Post office pin directory. We can search post office details by following keyword
+A web API interface for Indian Post office pin directory. We can search post office details by following keyword, the output will be the json data.
 * office_name
 * pin_code
 * office_type
@@ -12,6 +12,13 @@ A web app for Indian Post office pin directory. We can search post office detail
 * state
 
 ### Installation guide:
+
+In this project we use,
+
+* Django
+* django-rest-framework
+* django-heystack
+* pyelasticsearch
 
 Create a virtual environment and activate.
 
