@@ -56,4 +56,50 @@ Activate elastic search servie on your machine
 ```
 
 
+***GET:*** http://localhost:8000/search/?circle=Rajasthan&&state=RAJASTHAN
+```javascript
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "office_name": "12 S.O\"",
+            "pin_code": 302017,
+            "office_type": "S.O",
+            "delivery_status": "S.O",
+            "division": "Jaipur City",
+            "region": "Jaipur HQ",
+            "circle": "Rajasthan",
+            "taluk": "Jaipur",
+            "district": "Jaipur",
+            "state": "RAJASTHAN"
+        },
+        {
+            "office_name": "rajgarh S.O\"",
+            "pin_code": 301408,
+            "office_type": "S.O",
+            "delivery_status": "S.O",
+            "division": "Alwar",
+            "region": "Jaipur HQ",
+            "circle": "Rajasthan",
+            "taluk": "Rajgarh",
+            "district": "Alwar",
+            "state": "RAJASTHAN"
+        },
+        {
+            "office_name": "Bandar Sindari S.O\"",
+            "pin_code": 305817,
+            "office_type": "S.O",
+            "delivery_status": "S.O",
+            "division": "Ajmer",
+            "region": "Ajmer",
+            "circle": "Rajasthan",
+            "taluk": "Kishangarh",
+            "district": "Ajmer",
+            "state": "RAJASTHAN"
+        }
+    ]
+}
+```
 
