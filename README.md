@@ -23,6 +23,7 @@ In this project we use,
 Create a virtual environment and activate.
 
 Clone the repository
+
 `git clone git@github.com:savad/pinsearch.git`
 
 `cd pinsearch`
